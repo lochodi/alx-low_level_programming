@@ -4,13 +4,13 @@
 /**
  * print_number - prints an integer
  * @n: integer to be printed
- * Return: Nothing!
+ * Return: void
  */
 
 void print_number(int n)
 
 {
-	unsigned int k=n;
+	unsigned int k = n;
 
 	if (n < 0)
 	{
